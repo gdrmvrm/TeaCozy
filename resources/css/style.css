@@ -1,0 +1,176 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  margin-top: -7px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  padding-right: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+/*Main Content*/
+.content {
+  display: flex;
+  width: 100%;
+  padding-top: auto;
+  flex-direction: column;
+}
+
+/*Mission Content*/
+
+#mission {
+  display: flex;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.mission-img {
+  background-image: url(../images/mission.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.image-content {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  height: 700px;
+  justify-content: center;
+}
+
+span h2, h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  background-color: black;
+  width: 1200px;
+}
+
+/*Featured*/
+#featured {
+  margin: 0;
+}
+
+.featured {
+  display:flex;
+  width: 1000px;
+  height: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 50px 15px 100px;
+}
+.images {
+  width: 300px;
+  padding: 5px 15px;
+}
+
+.images img {
+  height: 200px;
+}
+
+.images h4 {
+  width: 300px;
+  padding-top: 10px;
+}
+
+#featured h2 {
+  padding-top: 80px;
+}
+
+/*locations*/
+#location {
+  padding-top: 75px;
+  display: flex;
+  padding-left: 30px;
+}
+
+.location-img {
+  background-image: url(../images/location.jpg);
+  height: 570px;
+  width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.items {
+  width: 280px;
+  height: 270px;
+  margin: 5px 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+  opacity: 1;
+}
+
+.location-img h2 {
+  margin-top: 0;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.items h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/*Contact*/
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*footer*/
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
